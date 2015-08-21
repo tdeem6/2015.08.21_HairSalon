@@ -56,4 +56,5 @@
             }
             return $found_cuisine;
         }
+      }
 ?>
