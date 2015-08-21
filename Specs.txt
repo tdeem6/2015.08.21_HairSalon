@@ -1,0 +1,61 @@
+For StylistTest & ClientTest
+
+getName
+
+1. Takes the entered stylist's name and saves it into the variable $name
+
+Input: "Steve";
+Output: $name;
+
+getId
+
+2. Takes the entered stylist's name and assigns it an id value.
+
+Input: "Steve";
+Id: 1;
+Output: true
+
+save
+
+3. Saving the new stylist's name to the database.
+
+Input: "Steve";
+Output: $test_stylist;
+
+getAll
+
+4. Takes multiple inputs and saves them to the database using the save function,
+then finding them with getAll method
+
+Input1: "Steve";
+Input2: "Carl";
+Output: $test_stylist1, $test_stylist2;
+
+
+getClients
+
+5. Attaches client id to the new client objects, saves them to the database,
+and finds them in the data
+
+Input1_stylist: "Steve"
+
+Input1_client: "Ralph";
+Input2_client: "Postsi";
+
+Output: $test_client, $test_client2;
+
+
+Update
+
+6.Lets user update $name variable.
+
+Input1: "Steve";
+Output: "Carl";
+
+Delete
+
+7. Deletes one stylist from the database.
+
+$test_stylist1: "Steve";
+$test_stylist2: "Carl";
+Output: $test_stylist2;
