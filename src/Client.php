@@ -72,7 +72,7 @@
 
         function updateClientName($new_client_name)
         {
-            $GLOBALS['DB']->("UPDATE clients SET client_name = '{$new_client_name}' WHERE id = {$this->getId()};");
+            $GLOBALS['DB']->exec("UPDATE clients SET client_name = '{$new_client_name}' WHERE id = {$this->getId()};");
             $this->setClientName($new_client_name);
         }
 
@@ -81,6 +81,7 @@
             $GLOBALS['DB']->exec("UPDATE clients SET client_name = '{$new_client_name}' WHERE id = {$this->getId()};");
         }
 
+      
 
 
 

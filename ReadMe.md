@@ -6,8 +6,9 @@
 
 ## Description
 
-Allows user to add their favorite restaurants by cuisine type.  Can delete all items upon completion with one button.
+Allows user to enter stylist's name for a Salon.  Also allows user to add clients to a particular Salon stylist.
 
+(Could not get twig rendering right pages, got stuck add php PDO and getting it to work, scrambled writing twig files and app.php)
 ##Setup
 
 1. Clone this repository using the command `git clone [link-to-your-repository]`.
